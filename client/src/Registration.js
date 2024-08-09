@@ -15,7 +15,7 @@ const Registration = () => {
       return;
     }
     try {
-      await axios.post('http://localhost:5000/api/users/register', { email, password });
+      await axios.post('https://shoptypeassignment.onrender.com/api/users/register', { email, password });
       alert('Registration successful! Please log in.');
       navigate('/login');
     } catch (error) {
