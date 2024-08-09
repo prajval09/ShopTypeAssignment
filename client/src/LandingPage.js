@@ -28,7 +28,7 @@ const LandingPage = () => {
         ></iframe>
         <div className="space-y-4 mt-6">
           <a href="https://prajval09.github.io/Portfolio/" target="_blank" rel="noopener noreferrer" className="block text-blue-500 hover:underline">My Portfolio</a>
-          <a href="https://linkedin.com/in/prajval09" target="_blank" rel="noopener noreferrer" className="block text-blue-700 hover:underline">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/prajwalpatil09/" target="_blank" rel="noopener noreferrer" className="block text-blue-700 hover:underline">LinkedIn</a>
           <a href="https://prajval09.github.io/Portfolio/" target="_blank" rel="noopener noreferrer" className="block text-green-500 hover:underline">My Website</a>
           <a href="https://github.com/prajval09" target="_blank" rel="noopener noreferrer" className="block text-gray-800 hover:underline">GitHub</a>
         </div>
