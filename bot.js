@@ -18,5 +18,5 @@ const bot = new TelegramBot(token, { polling: true });
 
 bot.on('message', (msg) => {
     const chatId = msg.chat.id;
-    bot.sendMessage(chatId, 'Welcome! Click the link to access the web application: https://shoptypeassignment.onrender-1.com/');
+    bot.sendMessage(chatId, 'Welcome! Click the link to access the web application: https://shoptypeassignment-1.onrender.com/');
 });
