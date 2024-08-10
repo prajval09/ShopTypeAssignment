@@ -6,7 +6,7 @@ const bot = new TelegramBot(token, { polling: true });
 
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
-  bot.sendMessage(chatId, 'Welcome! Click the link to access the web application: https://your-deployed-app.com/login');
+  bot.sendMessage(chatId, 'Welcome! Click the link to access the web application: https://shoptypeassignment-1.onrender.com/');
 });
 
 console.log('Bot is running...');
